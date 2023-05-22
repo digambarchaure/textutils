@@ -1,6 +1,6 @@
 import React , {useState} from "react";
 
-  
+
 export default function TextForm() {
 
   const handleUpClick = (event) =>{
@@ -14,7 +14,6 @@ export default function TextForm() {
     let newText = text.toLowerCase(text);
     setText(newText);
   }
-
   const handleOnChange = (event) => {
     setText(event.target.value)
   }
